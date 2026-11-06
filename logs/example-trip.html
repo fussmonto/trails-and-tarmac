@@ -1,0 +1,65 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+  <meta charset="UTF-8">
+  <meta name="viewport" content="width=device-width, initial-scale=1">
+  <title>Trip template | Trails &amp; Tarmac</title>
+  <link rel="preconnect" href="https://fonts.googleapis.com">
+  <link rel="preconnect" href="https://fonts.gstatic.com" crossorigin>
+  <link href="https://fonts.googleapis.com/css2?family=Bricolage+Grotesque:opsz,wght@12..96,400..800&family=Newsreader:ital,opsz,wght@0,6..72,400..600;1,6..72,400&display=swap" rel="stylesheet">
+  <link rel="stylesheet" href="../style.css">
+</head>
+<body data-root="../">
+
+<header class="bar">
+  <div class="wrap">
+    <a class="brand" href="../index.html"><span class="flags" aria-hidden="true"><i></i><i></i><i></i><i></i><i></i></span>Trails &amp; Tarmac</a>
+    <nav aria-label="Main">
+      <a href="../index.html#stories">Stories</a>
+      <a href="../index.html#logs">Trail logs</a>
+      <a href="../gallery.html">Gallery</a>
+      <button class="theme-btn" id="theme-btn" type="button">Dark mode</button>
+    </nav>
+  </div>
+</header>
+
+<main>
+  <div class="log-hero">
+    <div class="wrap">
+      <a class="crumb" href="../index.html#logs">All trail logs</a>
+      <!-- 1. Change the place name -->
+      <h1>Place name</h1>
+      <!-- 2. Change or remove these facts -->
+      <ul class="facts">
+        <li>Region</li>
+        <li>Month and year</li>
+        <li>Number of travellers</li>
+      </ul>
+    </div>
+  </div>
+
+  <section style="padding-top:20px">
+    <div class="wrap six">
+      <!-- 3. Fill in the six sections. Copy a stop block for each day. -->
+      <article>
+        <h2>Itinerary</h2>
+        <div class="route">
+          <div class="stop"><h3>Day or place</h3><p>What happened.</p></div>
+        </div>
+      </article>
+      <article><h2>Accommodation</h2><p>Where you stayed.</p></article>
+      <article><h2>Food</h2><p>What you ate.</p></article>
+      <article><h2>Local sightseeing</h2><p>What you saw.</p></article>
+      <article><h2>Transportation</h2><p>How you got around.</p></article>
+      <article><h2>Local market</h2><p>What the market sold.</p></article>
+    </div>
+  </section>
+</main>
+
+<footer>
+  <div class="wrap"><span><strong>Trails &amp; Tarmac</strong> &copy; <span id="year">2026</span></span></div>
+</footer>
+
+<script src="../script.js"></script>
+</body>
+</html>

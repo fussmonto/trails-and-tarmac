@@ -1,0 +1,52 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+  <meta charset="UTF-8">
+  <meta name="viewport" content="width=device-width, initial-scale=1">
+  <title>Gallery | Trails &amp; Tarmac</title>
+  <link rel="preconnect" href="https://fonts.googleapis.com">
+  <link rel="preconnect" href="https://fonts.gstatic.com" crossorigin>
+  <link href="https://fonts.googleapis.com/css2?family=Bricolage+Grotesque:opsz,wght@12..96,400..800&family=Newsreader:ital,opsz,wght@0,6..72,400..600;1,6..72,400&display=swap" rel="stylesheet">
+  <link rel="stylesheet" href="style.css">
+</head>
+<body data-root="">
+
+<header class="bar">
+  <div class="wrap">
+    <a class="brand" href="index.html"><span class="flags" aria-hidden="true"><i></i><i></i><i></i><i></i><i></i></span>Trails &amp; Tarmac</a>
+    <nav aria-label="Main">
+      <a href="index.html#stories">Stories</a>
+      <a href="index.html#logs">Trail logs</a>
+      <a href="gallery.html" aria-current="page">Gallery</a>
+      <button class="theme-btn" id="theme-btn" type="button">Dark mode</button>
+    </nav>
+  </div>
+</header>
+
+<main>
+  <div class="log-hero">
+    <div class="wrap">
+      <a class="crumb" href="index.html">Back to home</a>
+      <h1>Gallery</h1>
+      <p style="max-width:48ch;color:var(--ink-soft)">Photos from every trip. Select a photo to see it full size.</p>
+    </div>
+  </div>
+  <section style="padding-top:12px">
+    <div class="wrap"><div id="gallery"></div></div>
+  </section>
+</main>
+
+<dialog class="lightbox" id="lightbox" aria-label="Photo viewer">
+  <img src="" alt="">
+  <p></p>
+</dialog>
+
+<footer>
+  <div class="wrap">
+    <span><strong>Trails &amp; Tarmac</strong> &copy; <span id="year">2026</span></span>
+  </div>
+</footer>
+
+<script src="script.js"></script>
+</body>
+</html>

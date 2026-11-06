@@ -1,0 +1,99 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+  <meta charset="UTF-8">
+  <meta name="viewport" content="width=device-width, initial-scale=1">
+  <title>Trails &amp; Tarmac | Himalayan treks and road trips</title>
+  <meta name="description" content="Himalayan treks, road trips and the logs behind them: itineraries, stays, food and markets.">
+  <link rel="preconnect" href="https://fonts.googleapis.com">
+  <link rel="preconnect" href="https://fonts.gstatic.com" crossorigin>
+  <link href="https://fonts.googleapis.com/css2?family=Bricolage+Grotesque:opsz,wght@12..96,400..800&family=Newsreader:ital,opsz,wght@0,6..72,400..600;1,6..72,400&display=swap" rel="stylesheet">
+  <link rel="stylesheet" href="style.css">
+</head>
+<body data-root="">
+
+<header class="bar">
+  <div class="wrap">
+    <a class="brand" href="index.html"><span class="flags" aria-hidden="true"><i></i><i></i><i></i><i></i><i></i></span>Trails &amp; Tarmac</a>
+    <nav aria-label="Main">
+      <a href="#stories">Stories</a>
+      <a href="#logs">Trail logs</a>
+      <a href="gallery.html">Gallery</a>
+      <button class="theme-btn" id="theme-btn" type="button">Dark mode</button>
+    </nav>
+  </div>
+</header>
+
+<main>
+  <section class="hero" id="hero" style="padding-bottom:0">
+    <div class="wrap">
+      <h1>Trails <span>&amp;</span> Tarmac</h1>
+      <p class="lede">Take only memories, leave only footprints.</p>
+      <div class="btns">
+        <a class="btn solid" href="#stories">Read the stories</a>
+        <a class="btn" href="#logs">Open a trail log</a>
+      </div>
+    </div>
+    <svg class="profile" viewBox="0 0 1200 230" role="img" aria-label="Elevation profile of a mountain ridge">
+      <defs>
+        <linearGradient id="snow" x1="0" y1="0" x2="0" y2="1">
+          <stop offset="0" stop-color="#2E6E9E" stop-opacity="0.35"/>
+          <stop offset="1" stop-color="#2E6E9E" stop-opacity="0"/>
+        </linearGradient>
+      </defs>
+      <path class="fill" d="M0 190 L90 150 L170 168 L260 108 L340 134 L440 58 L520 96 L620 38 L720 88 L810 66 L910 122 L1010 98 L1110 150 L1200 128 L1200 230 L0 230Z"/>
+      <path class="ridge" pathLength="1" d="M0 190 L90 150 L170 168 L260 108 L340 134 L440 58 L520 96 L620 38 L720 88 L810 66 L910 122 L1010 98 L1110 150 L1200 128"/>
+      <circle class="peak" cx="440" cy="58" r="9"/>
+      <circle class="peak" cx="620" cy="38" r="9"/>
+      <circle class="peak" cx="810" cy="66" r="9"/>
+      <text x="454" y="48">Sandakphu 3,636 m</text>
+      <text x="634" y="28">Kunzum La 4,590 m</text>
+    </svg>
+  </section>
+
+  <section id="stories">
+    <div class="wrap">
+      <div class="sec-head">
+        <h2>Stories from the road</h2>
+        <p>Himalayan treks and the long drives that lead to them.</p>
+      </div>
+      <div class="grid" id="story-grid"></div>
+    </div>
+  </section>
+
+  <section class="paper" id="logs">
+    <div class="wrap">
+      <div class="sec-head">
+        <h2>Travel data and logs</h2>
+        <p>Every trip is saved the same way: itinerary, stay, food, sights, transport and local market.</p>
+      </div>
+      <div class="table-scroll">
+        <table class="trail">
+          <thead><tr><th>Place</th><th>Region</th><th>When</th><th>Altitude</th><th><span class="sr">Log</span></th></tr></thead>
+          <tbody id="trail-rows"></tbody>
+        </table>
+      </div>
+    </div>
+  </section>
+
+  <section>
+    <div class="wrap">
+      <div class="sec-head">
+        <h2>Photo gallery</h2>
+        <p>Frames from the ridge, the road and the market stalls.</p>
+      </div>
+      <a class="btn solid" href="gallery.html">Open the gallery</a>
+    </div>
+  </section>
+</main>
+
+<footer>
+  <div class="wrap">
+    <span><strong>Trails &amp; Tarmac</strong> &copy; <span id="year">2026</span></span>
+    <span>Written in Kolkata, walked in the Himalaya.</span>
+  </div>
+</footer>
+
+<script src="script.js"></script>
+</body>
+</html>
